@@ -1,0 +1,13 @@
+.title {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.subtitle {
+    color: red;
+
+    @include ph {
+        color: green;
+    }
+}
+

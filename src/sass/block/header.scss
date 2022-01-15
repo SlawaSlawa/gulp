@@ -1,0 +1,8 @@
+.header {
+    background-color: #ccc;
+    padding: 20px;
+
+    @include ph{
+        text-align: center;
+    }
+}
